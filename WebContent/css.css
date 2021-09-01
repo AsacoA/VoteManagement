@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	display: table;
+	background: green;
+	text-align: center;
+	width: 100%;
+}
+
+nav {
+	background: #99ee99;
+}
+
+ul, li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 5px;
+	padding: 0;
+}
+
+section {
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}
